@@ -29,7 +29,7 @@ for (let i = 0; i < carrito.length; i++) {
     
         carritoDiv.innerHTML += "<p>" + producto.nombre + " - $" + producto.precio + "</p>";
     }
-    carritoDiv.innerHTML += '<p class="texto-carrito"> Cantidad de artículos:'+ carrito.length + "</p>";
+    carritoDiv.innerHTML += '<p class="texto-carrito"> Cantidad de artículos: '+ carrito.length + "</p>";
     carritoDiv.innerHTML += '<p class="texto-carrito">Total: $' + total + "</p>";
     }
 }
